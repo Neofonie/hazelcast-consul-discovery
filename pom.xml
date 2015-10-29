@@ -4,7 +4,7 @@
 
     <groupId>de.neofonie</groupId>
     <artifactId>hazelcast-consul</artifactId>
-    <version>LATEST</version>
+    <version>1.0.0-EA</version>
     <packaging>jar</packaging>
 
     <name>hazelcast-consul</name>
