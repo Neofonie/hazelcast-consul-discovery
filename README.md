@@ -1,6 +1,8 @@
 # Hazelcast - Consul Node Discovery
 
-The plugin for Hazelcast fetches nodes belonging to a given service from the Consul server. Currently it has been implemented against https://github.com/hazelcast-incubator/hazelcast-discovery-spi.
+The plugin for Hazelcast fetches nodes belonging to a given service from the Consul server. 
+
+**Currently works from Hazelcast 3.6-EA !**
 
 In order to get this plugin running, you must place the JAR on the classpath along with this above build of Hazelcast. Then you must alter the cluster.xml like this:
 
