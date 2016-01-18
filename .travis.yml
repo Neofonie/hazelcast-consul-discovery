@@ -1,0 +1,6 @@
+language: java
+jdk:
+  - oraclejdk8
+
+script: mvn clean javadoc:jar source:jar package install deploy --settings travis-settings.xml
+
