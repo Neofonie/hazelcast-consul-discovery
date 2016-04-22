@@ -100,8 +100,10 @@ public class ConsulDiscovery implements DiscoveryStrategy {
 
                 return list;
             } catch (Exception e) {
-                LOG.severe(e.getMessage());
-                throw ExceptionUtil.rethrow(e);
+                // The exception is no longer rethrown. When the exception
+                // arrives in Hazelcast-core, it will stop working totally.
+                // An empty list is delivered as default.
+                LOG.severe(e.getMessage());                
             }
         }
         return list;

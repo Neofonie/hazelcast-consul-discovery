@@ -4,7 +4,7 @@
 
     <groupId>de.neofonie</groupId>
     <artifactId>hazelcast-consul</artifactId>
-    <version>3.6-EA</version>
+    <version>3.6</version>
     <packaging>jar</packaging>
 
     <name>hazelcast-consul</name>
@@ -46,7 +46,7 @@
         <dependency>
             <groupId>com.hazelcast</groupId>
             <artifactId>hazelcast</artifactId>
-            <version>3.6-EA</version>
+            <version>3.6</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
