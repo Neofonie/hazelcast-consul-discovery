@@ -27,7 +27,6 @@ import com.hazelcast.nio.Address;
 import com.hazelcast.spi.discovery.DiscoveryNode;
 import com.hazelcast.spi.discovery.DiscoveryStrategy;
 import com.hazelcast.spi.discovery.SimpleDiscoveryNode;
-import com.hazelcast.util.ExceptionUtil;
 import com.orbitz.consul.CatalogClient;
 import com.orbitz.consul.Consul;
 import com.orbitz.consul.model.ConsulResponse;
