@@ -4,7 +4,7 @@
 
     <groupId>de.neofonie</groupId>
     <artifactId>hazelcast-consul</artifactId>
-    <version>3.6</version>
+    <version>3.6.3</version>
     <packaging>jar</packaging>
 
     <name>hazelcast-consul</name>
@@ -46,13 +46,13 @@
         <dependency>
             <groupId>com.hazelcast</groupId>
             <artifactId>hazelcast</artifactId>
-            <version>3.6</version>
+            <version>3.6.3</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.orbitz.consul</groupId>
             <artifactId>consul-client</artifactId>
-            <version>0.9.10</version>
+            <version>0.12.3</version>
         </dependency>
     </dependencies>
 
