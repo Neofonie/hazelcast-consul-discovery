@@ -4,7 +4,7 @@ The plugin for Hazelcast fetches nodes belonging to a given service from the Con
 
 **Currently works from Hazelcast 3.6-EA !**
 
-In order to get this plugin running, you must place the JAR on the classpath along with this above build of Hazelcast. Then you must alter the cluster.xml like this:
+In order to get this plugin running, you must place the JAR on the classpath along with this above build of Hazelcast. Then you must alter the hazelcast.xml like this:
 
  ```
  <join>
