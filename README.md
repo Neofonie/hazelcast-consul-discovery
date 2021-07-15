@@ -1,5 +1,7 @@
 # Hazelcast - Consul Node Discovery
 
+## **⚠️ THIS PROJECT IS NOW UNMAINTED AND IN READ-ONLY MODE ⚠️**
+
 The plugin for Hazelcast fetches nodes belonging to a given service from the Consul server. 
 
 **Currently works from Hazelcast 3.6-EA !**
